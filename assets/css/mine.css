@@ -1,0 +1,170 @@
+body {
+  display: flex;
+  width: 100%;
+  height:100vh;
+  padding: 269px 357px 270px 356px;
+  justify-content: center;
+  align-items: center;
+  background: #eef2f9;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 887px;
+  height: 661px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 24px 28px 9px rgba(179, 193, 217, 0.33);
+}
+
+.product-info {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+  width: 723px;
+  height: 497px;
+  padding: 82px;
+}
+
+.left-photo img {
+  width: 249px;
+  height: 223px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.shipping-info {
+  display: inline-flex;
+  padding: 4px 8px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  background: #191847;
+}
+
+.shipping-info p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-name {
+  width: 419px;
+  height: 72px;
+}
+
+.product-name p {
+  color: #191847;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 395px;
+  height: 114px;
+}
+
+.product-price del {
+  width: 54px;
+  height: 21px;
+  text-decoration: line-through;
+  color: black;
+}
+
+.product-price strong {
+  color: #191847;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.product-price p {
+  color: #191847;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6000000238418579;
+  width: 395px;
+  height: 21px;
+}
+
+.add-to-cart-btn {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #4788e9;
+  box-shadow: 0px 7px 0px 0px #1c57ee;
+}
+
+.add-to-cart-btn a {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.stock-info {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 21px;
+  gap: 8px;
+}
+
+.stock-info p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.action-btn {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 2px solid #C9C9DA;
+  width: 213px;
+  height: 64px;
+}
+
+.action-btn a {
+  color: #191847;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
