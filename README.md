@@ -48,5 +48,5 @@ The design is compatible with modern web browsers.
 
 ## Author
 
-[Ebulfez](https://github.com/ebulfez21/Product-Info-UI-Design/tree/main)
-[Netlify Link] (https://ebulfez-product-info-ui-design.netlify.app/)
+[Ebulfez-GitHub](https://github.com/ebulfez21/Product-Info-UI-Design/tree/main)
+[Ebulfez-Netlify] (https://ebulfez-product-info-ui-design.netlify.app/)
